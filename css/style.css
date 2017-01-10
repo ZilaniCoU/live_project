@@ -1,0 +1,116 @@
+body{
+	background-image:url("../images/background-image.png");
+	background-color:#012342;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.float_left{
+	float:left;
+}
+.float_right{
+	float:right;
+}
+header{
+	background:#fff;
+	height:70px;
+}
+.logo img{
+	padding:15px;
+}
+.main_menu ul li a{
+	border-radius:5px;
+	padding:10px 20px;
+}
+.main_menu ul li a:hover{
+	background:#473996;
+	color:#fff;
+}
+.slider_section{
+	background: url("../images/header-background.png") no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	height:336px;
+	position:relative;
+}
+.slider_area{
+	background:rgba(4,29,95,1);
+	background:-webkit-linear-gradient(top,rgba(4,29,95,1)0%,rgba(249,250,252,0.5)30%,rgba(249,250,252,0.1)100%);
+	background:-webkit-gradient(top,rgba(4,29,95,1)0%,rgba(249,250,252,0.5)30%,rgba(249,250,252,0.1)100%);
+	background:-moz-linear-gradient(top,rgba(4,29,95,1)0%,rgba(249,250,252,0.5)30%,rgba(249,250,252,0.1)100%);
+	background:-o-linear-gradient(top,rgba(4,29,95,1)0%,rgba(249,250,252,0.5)30%,rgba(249,250,252,0.1)100%);
+	position:absolute;
+	height:100%;
+	width:100%;
+}
+.carousel_area {
+	padding:20px;
+}
+.carousel_area > .carousel-indicators{
+	text-align:right;
+}
+.carousel_area > .item  > .carousel-caption{
+	width:50%; !important;
+	float:left; !important;
+	
+}
+.carousel_area > .item  > img{
+	width:50%;!important;
+	float:right;!important;
+}
+.feature{
+	padding:15px 0px;
+	background:#EDEDED;
+}
+.feature_img img{
+	padding-top:10px;
+}
+.feature_caption h4{
+	line-height:.5;
+	font-weight: 700;
+}
+.feature_caption p{
+	line-height:1.3;
+}
+
+.description{
+	padding: 15px 0px;
+	background:#fff;
+}
+.description img{
+	padding-top: 10px;
+}
+.description p{
+	padding-top: 20px;
+	float:left;
+}
+.description button{border-radius:5px;}
+
+.description_col3{}
+.description_col3 ul{}
+.description_col3 ul li{}
+.description_col3 ul li a{padding:0;}
+
+.last_feature{
+	/*padding: 15px 0px;*/
+	background: #EDEDED;
+	border-top: 50px;
+	border-color: #BABABA;
+}
+.last_feature_col1 {}
+.last_feature_col1 ul{}
+.last_feature_col1 ul li{}
+.last_feature_col1 ul li a{padding:0;margin:0;}
+
+
+
+.footer{
+	background:#EDEDED;
+	padding-top:20px;
+}
+
+.footer_social_icon img{
+	padding:0px;
+}
+.footer_social_icon li{margin-top:0px;}
